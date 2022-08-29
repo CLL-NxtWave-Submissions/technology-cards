@@ -1,0 +1,49 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+.technology-card-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2.5rem;
+  border-radius: 0.8rem;
+  background-color: #ffffff;
+  width: 80vw;
+  margin-bottom: 2rem;
+}
+
+.technology-card-header {
+  font-size: 1.2rem;
+  color: #171f46;
+  margin-bottom: 0;
+}
+
+.technology-card-description {
+  font-size: 1rem;
+  color: #64748b;
+}
+
+.technology-card-image {
+  align-self: flex-end;
+  height: 5rem;
+  width: 5rem;
+}
+
+@media (min-width: 992px) {
+  .technology-card-item {
+    width: 30vw;
+    margin-right: 2rem;
+  }
+}
